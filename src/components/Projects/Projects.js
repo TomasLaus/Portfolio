@@ -27,7 +27,7 @@ function Projects() {
               description="Desarrollo de una App como experiencia académica con React, Redux, NodeJS, Express, Testing, Sequelize y PostgreSQL.
               Se puede realizar una búsqueda especifica de receta y/o filtrarlos por puntaje, alfabéticamente y por tipo de dieta.
               El cliente puede crear su propia receta, que será almacenada en la base de datos y mostrada en la pagina principal."
-              link="https://github.com/soumyajit4419/Chatify"
+              link="https://github.com/TomasLaus/Project-Food"
             />
           </Col>
 
