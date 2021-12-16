@@ -24,9 +24,9 @@ function Projects() {
               imgPath={chatify}
               isBlog={false}
               title="Tasty - Food Project"
-              description="Desarrollo de una App como experiencia académica con React, Redux, NodeJS, Express, Testing, Sequelize y PostgreSQL.
-              Se puede realizar una búsqueda especifica de receta y/o filtrarlos por puntaje, alfabéticamente y por tipo de dieta.
-              El cliente puede crear su propia receta, que será almacenada en la base de datos y mostrada en la pagina principal."
+              description="Development of an App with React, Redux, NodeJS, Express, Testing, Sequelize and PostgreSQL.
+              It is possible to perform a specific recipe search and/or filter them by score, alphabetically and by type of diet.
+              The customer can create his own recipe, which will be stored in the database and displayed on the main page."
               link="https://github.com/TomasLaus/Project-Food"
             />
           </Col>
@@ -35,7 +35,7 @@ function Projects() {
             <ProjectCard
               imgPath={leaf}
               title="MovieApp"
-              description="Desarrollo de una SPA (Single Page Aplication), como experiencia académica, utilizando React, y Redux como State management. Los componentes fueron desarrollados con CSS puro. La SPA consume datos de la API de OMDB. Puedes ver y listar películas, ver todos los detalles de una película en particular, agregar las películas a tu lista de favoritos y borrarlas."
+              description="Development of a SPA (Single Page Application), as an academic experience, using React, and Redux as State management. The components were developed with pure CSS. The SPA consumes data from the OMDB API. You can view and list movies, see all the details of a particular movie, add movies to your favorites list and delete them."
               link="https://github.com/TomasLaus/MovieApp"
             />
           </Col>
@@ -44,9 +44,11 @@ function Projects() {
             <ProjectCard
               imgPath={editor}
               isBlog={false}
-              title="Flex - E-Commerce"
-              description="Desarrollo del front end de una tienda online con carrito de compras, utilizando los componentes React y Firebase como servidor en la nube. Con experiencia de usuario amigable, con actualizaciones visuales instantáneas, y código escalable."
-              link="https://github.com/TomasLaus/flex-react"
+              title="Rick and Morty - App"
+              description="Development of an App with React, Redux, NodeJS, Express, Testing, Sequelize and PostgreSQL.
+              It is possible to perform a specific character search and/or filter them.
+              The customer can create his own persona, which will be stored in the database and displayed on the home page."
+              link="https://github.com/TomasLaus/Rick-and-Morty-app"
             />
           </Col>
         </Row>
