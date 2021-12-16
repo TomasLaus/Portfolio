@@ -35,7 +35,7 @@ function Projects() {
             <ProjectCard
               imgPath={leaf}
               title="MovieApp"
-              description="Development of a SPA (Single Page Application), as an academic experience, using React, and Redux as State management. The components were developed with pure CSS. The SPA consumes data from the OMDB API. You can view and list movies, see all the details of a particular movie, add movies to your favorites list and delete them."
+              description="Development of a SPA (Single Page Application), using React, and Redux as State management. The components were developed with pure CSS. The SPA consumes data from the OMDB API. You can view and list movies, see all the details of a particular movie, add movies to your favorites list and delete them."
               link="https://github.com/TomasLaus/MovieApp"
             />
           </Col>
