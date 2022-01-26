@@ -11,7 +11,7 @@ import {
   DiJqueryLogo,
   DiCss3
 } from "react-icons/di";
-import {SiFirebase, SiRedux, SiBootstrap, SiTailwindcss, SiNpm } from "react-icons/si";
+import {SiFirebase, SiRedux, SiBootstrap, SiTailwindcss, SiNpm, SiTypescript } from "react-icons/si";
 
 function Techstack() {
   return (
@@ -57,6 +57,9 @@ function Techstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiBootstrap />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiTypescript />
       </Col>
     </Row>
   );
