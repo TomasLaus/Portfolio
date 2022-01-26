@@ -34,8 +34,10 @@ function Projects() {
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={leaf}
-              title="MovieApp"
-              description="Development of a SPA (Single Page Application), using React, and Redux as State management. The components were developed with pure CSS. The SPA consumes data from the OMDB API. You can view and list movies, see all the details of a particular movie, add movies to your favorites list and delete them."
+              title="GAMEROOM - Game app"
+              description="Development of an App with React, Redux, NodeJS, Express, Testing, Sequelize and PostgreSQL.
+              It is possible to perform a specific recipe search and/or filter them by rating, alphabetically and by genre.
+              The user can post his own videogame, which will be stored in the database and displayed on the main page."
               link="https://github.com/TomasLaus/MovieApp"
             />
           </Col>
