@@ -38,7 +38,7 @@ function Projects() {
               description="Development of an App with React, Redux, NodeJS, Express, Testing, Sequelize and PostgreSQL.
               It is possible to perform a specific videogame search or filter them by his rating, alphabetically and by genre.
               The user can post his own videogame, which will be stored in the database and displayed on the main page."
-              link="https://github.com/TomasLaus/MovieApp"
+              link="https://github.com/TomasLaus/Gameroom-VideogamesApp"
             />
           </Col>
 
