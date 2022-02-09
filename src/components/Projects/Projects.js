@@ -1,16 +1,13 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
-import Particle from "../Particle";
-
-import leaf from "../../Assets/Projects/leaf.png";
+import gameroom from "../../Assets/Projects/leaf.png";
 import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/descarga.png";
+import food from "../../Assets/Projects/descarga.png";
 
 function Projects() {
   return (
-    <Container fluid className="project-section">
-      <Particle />
+    <Container fluid className="project-section"  style={{ backgroundColor: '#181818'}}>
       <Container>
         <h1 className="project-heading">
           My Recent <strong className="purple">Works </strong>
@@ -21,7 +18,7 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={food}
               isBlog={false}
               title="Tasty - Food Project"
               description="Development of an App with React, Redux, NodeJS, Express, Testing, Sequelize and PostgreSQL.
@@ -33,7 +30,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
+              imgPath={gameroom}
               title="GAMEROOM - Game app"
               description="Development of an App with React, Redux, NodeJS, Express, Testing, Sequelize and PostgreSQL.
               It is possible to perform a specific videogame search or filter them by his rating, alphabetically and by genre.

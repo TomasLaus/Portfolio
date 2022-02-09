@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Container, Row } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
-import Particle from "../Particle";
 import pdf from "../../Assets/TomasLaus1.pdf";
 import { AiOutlineDownload } from "react-icons/ai";
 import { Document, Page, pdfjs } from "react-pdf";
@@ -20,8 +19,7 @@ function ResumeNew() {
 
   return (
     <div>
-      <Container fluid className="resume-section">
-        <Particle />
+      <Container fluid className="resume-section"  style={{ backgroundColor: '#181818'}}>
         <Row style={{ justifyContent: "center", position: "relative" }}>
           <Button variant="primary" href={pdf} target="_blank">
             <AiOutlineDownload />
